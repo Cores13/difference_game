@@ -33,18 +33,25 @@
         <p>Can you spot the differences?  Click on all five of them in the picture on the right to be entered to win.</p><br />
         <img src="orginal.jpg" width="400px" height="600px">
                 </div><!-- end original -->
-            <form method="post" action="">
-        <div id="form_container">
-        
-            <h1>Congratulations! You found all 5!</h1>
-            Submit your email address to be entered to win.<br />
-                <p><small>Email Address:</small> <input type="text" name="email" id="email" /></p>
-                <br /><p><input type="submit" name="submit" id="submit" value="Submit" /></p>
-                <ul id="response" />
-            </div><!--end main -->
-            
+        <!-- <div id="form_container"> -->
+
+        <div class="popup">
+            <div class="close-btn">&times;</div>
+            <div class="form">
+                <h2>Submit score</h2>
+                <form action="https://formspree.io/f/moqywkgn"
+                method="POST" target="_blank">
+                    <div class="form-element">
+                        <label for="email">Your e-mail</label>
+                        <input id="email" type="email" name="_replyto" placeholder="example@email.com">
+                    </div>
+                    <textarea id="message" name="message" hidden>Done</textarea>
+                    <div class="form-element">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div><!-- end form container -->
-        </form>
-        </div></div><!-- end pagebg and main -->
+        </div><!-- end pagebg and main -->
 </body>
 </html>
