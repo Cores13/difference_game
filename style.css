@@ -5,6 +5,7 @@ html {
     color: white;
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 #different {
     position: absolute;
@@ -185,3 +186,15 @@ body {
 .form > h2 {
     color: black;
 }
+
+#logo{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    left:0;
+    margin-left: 100px;
+    bottom:0;
+    margin-bottom: -1045px;
+    z-index: -1;
+    /* opacity: 0.5; */
+  }
