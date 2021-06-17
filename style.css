@@ -17,6 +17,9 @@ html {
     top:166px;
     z-index:0;
     border: 1px solid white;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 #leaf-diff {
     position:absolute;
@@ -27,6 +30,9 @@ html {
     top:166px;
     z-index:1;
     display: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 #light-diff {
     position:absolute;
@@ -37,6 +43,9 @@ html {
     top:166px;
     display:none;
     z-index:1;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 #nolight-diff {
     position:absolute;
@@ -47,6 +56,9 @@ html {
     top:166px;
     display:none;
     z-index:1;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 #sauce-diff {
     position:absolute;
@@ -57,6 +69,9 @@ html {
     top:166px;
     display:none;
     z-index:1;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 #petal-diff {
     position:absolute;
@@ -67,12 +82,18 @@ html {
     top:166px;
     display:none;
     z-index:1;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 #transparentmap {
     z-index:9999;
     position: absolute;
     left:440px;
     top:166px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 
 /* #form_container {
@@ -85,28 +106,49 @@ html {
 } */
 a:link {
     text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 a:visited {
     text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 a:hover {
     text-decoration: underline;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 a:active {
     text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 body {
     color:white;
     font-family:helvetica, arial, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 #original {
     position:absolute;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 #wrapper {
     width:930px; 
     padding:20px 0px 20px 0px; 
     margin:0px auto;
     position:relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 
 .popup {
@@ -115,6 +157,9 @@ body {
     top:-150%;
     left:50%;
     opacity:0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
     transform:translate(-50%,-50%) scale(1.25);
     width:380px;
     padding:20px 30px;
