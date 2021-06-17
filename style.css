@@ -182,3 +182,6 @@ body {
     border-radius:10px;
     cursor:pointer;
 }
+.form > h2 {
+    color: black;
+}
