@@ -15,4 +15,3 @@ $(document).ready(function() {
         document.querySelector(".popup").classList.remove("active");
     });
 });
-
