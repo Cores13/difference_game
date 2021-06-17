@@ -1,6 +1,7 @@
 #different {
     position: absolute;
-    background: url(http://timgomm.co.uk/test/match/files/HD_PhotoHunt_After_0001_sm.jpg) no-repeat top left;
+    background: url('fake.jpg') no-repeat center;
+    background-size: cover;
     width:400px;
     height:600px;
     left:440px;
@@ -14,7 +15,7 @@
     height:600px;
     left:440px;
     top:166px;
-    z-index:1;
+    z-index:10;
     display: none;
 }
 #light-diff {
@@ -25,7 +26,7 @@
     left:440px;
     top:166px;
     display:none;
-    z-index:1;
+    z-index:10;
 }
 #nolight-diff {
     position:absolute;
@@ -35,7 +36,7 @@
     left:440px;
     top:166px;
     display:none;
-    z-index:1;
+    z-index:10;
 }
 #sauce-diff {
     position:absolute;
