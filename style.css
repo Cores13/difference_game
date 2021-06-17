@@ -18,7 +18,7 @@ html {
 }
 #leaf-diff {
     position:absolute;
-    background: url(http://timgomm.co.uk/test/match/files/leaf.png) no-repeat top left;
+    background: url('leaf.png') no-repeat top left;
     width:400px;
     height:600px;
     left:440px;
@@ -28,7 +28,7 @@ html {
 }
 #light-diff {
     position:absolute;
-    background: url(http://timgomm.co.uk/test/match/files/light.png) no-repeat top left;
+    background: url('light.png') no-repeat top left;
     width:400px;
     height:600px;
     left:440px;
@@ -38,7 +38,7 @@ html {
 }
 #nolight-diff {
     position:absolute;
-    background: url(http://timgomm.co.uk/test/match/files/nolight.png) no-repeat top left;
+    background: url('nolight.png') no-repeat top left;
     width:400px;
     height:600px;
     left:440px;
@@ -48,7 +48,7 @@ html {
 }
 #sauce-diff {
     position:absolute;
-    background: url(http://timgomm.co.uk/test/match/files/sauce.png) no-repeat top left;
+    background: url('sauce.png') no-repeat top left;
     width:400px;
     height:600px;
     left:440px;
@@ -58,7 +58,7 @@ html {
 }
 #petal-diff {
     position:absolute;
-    background: url(http://timgomm.co.uk/test/match/files/petal.png) no-repeat top left;
+    background: url('petal.png') no-repeat top left;
     width:400px;
     height:600px;
     left:440px;
