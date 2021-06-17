@@ -242,10 +242,16 @@ body {
     bottom:0;
     margin-bottom: -1045px;
     z-index: -1;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
     /* opacity: 0.5; */
   }
   @media (max-width: 700px) {
     html {
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
         background: #2e2e2e ;  
     }
   }
