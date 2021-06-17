@@ -17,9 +17,12 @@ html {
     top:166px;
     z-index:0;
     border: 1px solid white;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 #leaf-diff {
     position:absolute;
@@ -30,9 +33,12 @@ html {
     top:166px;
     z-index:1;
     display: none;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;;
 }
 #light-diff {
     position:absolute;
@@ -43,9 +49,12 @@ html {
     top:166px;
     display:none;
     z-index:1;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 #nolight-diff {
     position:absolute;
@@ -56,9 +65,12 @@ html {
     top:166px;
     display:none;
     z-index:1;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 #sauce-diff {
     position:absolute;
@@ -69,9 +81,12 @@ html {
     top:166px;
     display:none;
     z-index:1;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 #petal-diff {
     position:absolute;
@@ -82,18 +97,24 @@ html {
     top:166px;
     display:none;
     z-index:1;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 #transparentmap {
     z-index:9999;
     position: absolute;
     left:440px;
     top:166px;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 
 /* #form_container {
@@ -106,49 +127,70 @@ html {
 } */
 a:link {
     text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 a:visited {
     text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 a:hover {
     text-decoration: underline;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;;
 }
 a:active {
     text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 body {
     color:white;
     font-family:helvetica, arial, sans-serif;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 #original {
     position:absolute;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 #wrapper {
     width:930px; 
     padding:20px 0px 20px 0px; 
     margin:0px auto;
     position:relative;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 
 .popup {
@@ -157,9 +199,12 @@ body {
     top:-150%;
     left:50%;
     opacity:0;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
     transform:translate(-50%,-50%) scale(1.25);
     width:380px;
     padding:20px 30px;
@@ -180,6 +225,12 @@ body {
             opacity 200ms ease-in-out 0ms,
             transform 200ms ease-in-out 0ms;
     z-index: 9999999;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 .popup .close-btn {
     position:absolute;
@@ -194,7 +245,12 @@ body {
     border-radius:15px;
     cursor:pointer;
     z-index: 9999999;
-
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 .popup .form form h2 {
     text-align:center;
@@ -242,16 +298,22 @@ body {
     bottom:0;
     margin-bottom: -1045px;
     z-index: -1;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
     /* opacity: 0.5; */
   }
   @media (max-width: 700px) {
     html {
-        user-select: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
+        -webkit-touch-callout: none; 
+        -webkit-user-select: none; 
+        -khtml-user-select: none; 
+        -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
         background: #2e2e2e ;  
     }
   }
