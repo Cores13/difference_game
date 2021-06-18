@@ -13,6 +13,12 @@ html {
         -ms-user-select: none; 
             user-select: none;
 }
+#original > p {
+    margin-top: 0;
+}
+h1 {
+    margin-bottom: 18px;
+}
 img {
     -khtml-user-select: none;
     -o-user-select: none;
