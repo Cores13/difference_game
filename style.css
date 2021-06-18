@@ -16,7 +16,7 @@ html {
 #original > p {
     margin-top: 0;
 }
-h1 {
+#game-title {
     margin-bottom: 18px !important;
 }
 img {
