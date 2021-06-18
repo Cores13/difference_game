@@ -17,7 +17,7 @@ html {
     margin-top: 0;
 }
 h1 {
-    margin-bottom: 18px;
+    margin-bottom: 18px !important;
 }
 img {
     -khtml-user-select: none;
