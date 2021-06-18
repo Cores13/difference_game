@@ -314,12 +314,12 @@ body {
 
 #logo{
     position: absolute;
-    width: 600px;
+    width: 300px;
     height: auto;
-    left:0;
-    margin-left: 100px;
+    right:0;
+    margin-right: -240px;
     bottom:0;
-    margin-bottom: -1045px;
+    margin-bottom: -545px;
     z-index: -1;
     -webkit-touch-callout: none; 
     -webkit-user-select: none; 
@@ -338,5 +338,21 @@ body {
         -ms-user-select: none; 
             user-select: none;
         background: #2e2e2e ;  
+    }
+    #logo {
+        position: absolute;
+        width: 300px;
+        height: auto;
+        left:0;
+        margin-left: 270px;
+        bottom:0;
+        margin-bottom: -1010px;
+        z-index: -1;
+        -webkit-touch-callout: none; 
+        -webkit-user-select: none; 
+        -khtml-user-select: none; 
+        -moz-user-select: none; 
+            -ms-user-select: none; 
+                user-select: none;
     }
   }
