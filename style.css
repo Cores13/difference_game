@@ -14,9 +14,9 @@ html {
             user-select: none;
 }
 #original > p {
-    margin-top: 0 !important;
-    margin-bottom: 16px !important;
-    /* margin: 0 !important; */
+    /* margin-top: 0 !important; */
+    /* margin-bottom: 16px !important; */
+    margin: 16px 0px 0px 0px !important;
 }
 #game-title {
     margin-bottom: 18px !important;
