@@ -15,8 +15,8 @@ html {
 }
 #original > p {
     margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    margin: 0 !important;
+    margin-bottom: 16px !important;
+    /* margin: 0 !important; */
 }
 #game-title {
     margin-bottom: 18px !important;
